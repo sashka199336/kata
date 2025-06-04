@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Редактировать сообщение</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Редактировать сообщение</h1>
+<form action="edit_message.php" method="post">
+    <textarea name="message_1" rows="3" cols="50">Первое сообщение</textarea><br>
+    <textarea name="message_2" rows="3" cols="50">Второе сообщение</textarea><br>
+    <textarea name="message_3" rows="3" cols="50">Третье сообщение</textarea><br>
+    <textarea name="message_4" rows="3" cols="50">Четвертое сообщение</textarea><br>
+    <input type="hidden" name="message_id" value="2">
+    <button type="submit">Сохранить изменения</button>
+</form>
+</body>
+</html>
